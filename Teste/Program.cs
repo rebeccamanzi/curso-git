@@ -11,6 +11,10 @@ namespace Teste
             Console.WriteLine("Como você está?");
             Console.ReadLine();
 
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine("oi");
+            }
 
         }
     }
