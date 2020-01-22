@@ -6,16 +6,19 @@ namespace Teste
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("");
             Console.WriteLine("Bom dia!");
             Console.WriteLine("Como você está?");
             Console.ReadLine();
 
             for (int i = 0; i < 10; i++)
             {
-                Console.WriteLine("Oi 5 vezes");
+                Console.WriteLine($"Linha #{i}");
             }
 
+
+
+           
         }
     }
 }
